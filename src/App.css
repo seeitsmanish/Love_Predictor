@@ -1,0 +1,20 @@
+.todos-container{
+    /* Entire page width */
+    width:100%;
+    /* Entire page height */
+    height:100vh;
+    /* Responsive layout */
+    display:flex;
+    /* Display on top of the other */
+    flex-direction: column; 
+    /* Display horizontally at the center */ 
+    align-items: center;
+    /* Smooth transition to bottom right with different colors */
+    background-image: linear-gradient(to bottom right, #fc0345,#fc03b1,#4a03fc);
+    /* To cover the entire screen */
+    background-size:cover;
+    /* Image position */
+    background-position:center;
+    /* To not repeat the image beyond it's scale */
+    background-repeat:no-repeat;
+}
